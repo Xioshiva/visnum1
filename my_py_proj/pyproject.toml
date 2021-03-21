@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my_py_proj"
+version = "0.1.0"
+description = ""
+authors = ["alexey.paulot <alexey.paulot@etu.hesge.ch>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+mypy = "^0.812"
+matplotlib = "^3.3.4"
+Pillow = "^8.1.2"
+numpy = "^1.20.1"
+imageio = "^2.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
